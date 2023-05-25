@@ -3,7 +3,7 @@ import java.rmi.server.*;
 import java.rmi.registry.*;
 import java.rmi.server.RMIClassLoader;
 import java.util.Properties;
-public class DynamicReverseServer {
+public class DynamicMultiplyServer {
 public static void main(String[] args) {
 try { 
 if(System.getSecurityManager() == null) 
