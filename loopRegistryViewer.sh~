@@ -1,8 +1,0 @@
-#!/bin/bash
-for i in $(seq "$1");
-do
-	echo "itération $i"
-	java RegistryViewer localhost 1099
-	sleep 1
-done
-exit 0
